@@ -1,4 +1,50 @@
-.anasayfa-buttons {
+.container {
   display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 99vh;
+  gap: 20px;
+  border: 0px solid red;     
+  background-color: wheat;
+
+}
+body{
+  position: static;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+
+button {
+  height: 98%;     
+  width: 100%;
+  border-radius: 10px;
+  background-color: beige;
+  margin: 5px;
+}
+
+button:hover{
+  background-color: rgb(232, 255, 157);
+  transition: border-radius 1s;
+  border-radius: 50px;
+  cursor: crosshair;
 }
 
