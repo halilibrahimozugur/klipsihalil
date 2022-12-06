@@ -5,7 +5,7 @@
   height: 99vh;
   gap: 20px;
   border: 0px solid red;     
-  background-color: wheat;
+  background-color: rgb(0, 0, 0);
 
 }
 body{
@@ -37,14 +37,35 @@ button {
   height: 98%;     
   width: 100%;
   border-radius: 10px;
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
   margin: 5px;
+  font-size: 30px;
+  font-family: Calibri;
+  transition: color 0.5s, border-radius 1s, background-color 1s;
 }
 
 button:hover{
-  background-color: rgb(232, 255, 157);
-  transition: border-radius 1s;
   border-radius: 50px;
   cursor: crosshair;
+  transition: color 0.5s, border-radius 1s, background-color 1s;
 }
 
+.hakkimda-button:hover {
+  background-color: rgb(154, 22, 99);
+  color: white;
+}
+
+.randevu-al-button:hover {
+  background-color: rgb(224, 20, 76);
+  color: white;
+}
+
+.yazilar-button:hover {
+  background-color: rgb(255, 88, 88);
+  color: white;
+}
+
+.dogru-bilinen-yanlislar-button:hover {
+  background-color: rgb(255, 151, 193);
+  color: white;
+}
