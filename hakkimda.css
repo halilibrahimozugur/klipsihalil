@@ -1,0 +1,10 @@
+.tum-sayfa {
+  display: flex;
+  font-family: Calibri;
+  flex-direction: row;
+}
+
+.isim,
+.isim + p {
+  display: inline;
+}
