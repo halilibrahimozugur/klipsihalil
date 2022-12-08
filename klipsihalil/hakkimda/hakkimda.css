@@ -63,11 +63,28 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .tum-kisisel-bilgiler {
   display: flex;
   flex-direction: column;
-  width: 270px;
-  height: 390px;
+  border: 1px solid blue;
+  background-color: beige;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.tum-egitim-bilgileri {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  background-color: beige;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.tum-is-deneyimleri {
+  display: flex;
+  flex-direction: column;
   border: 1px solid blue;
   background-color: beige;
   font-size: 20px;
