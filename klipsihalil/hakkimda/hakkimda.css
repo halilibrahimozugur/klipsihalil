@@ -1,3 +1,35 @@
+.ozgecmisler {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  width:100%
+
+}
+
+img {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: 2px solid rgb(40, 0, 43);
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .tum-sayfa {
   display: flex;
   font-family: Calibri;
@@ -11,7 +43,8 @@
   width:100%;
 }
 
-/*.isim,
+/* Burası Ekstra */
+/*.isim, 
 .isim + p {
   display: inline;
 }
@@ -50,7 +83,9 @@
 .linkedin + p {
   display: inline;
 }*/
+/* Burası Ekstra */
 
+/*
 h3, h3 + p {
   display: inline;
 }
@@ -63,6 +98,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.kisisel-egitim {
+  display: flex;
+  flex-direction: row;
+}
 
 .tum-kisisel-bilgiler {
   display: flex;
@@ -71,6 +110,7 @@ a:hover {
   background-color: beige;
   font-size: 20px;
   margin-top: 90px;
+  height: 360px;
 }
 
 .tum-egitim-bilgileri {
@@ -90,3 +130,5 @@ a:hover {
   font-size: 20px;
   margin-top: 90px;
 }
+*/
+
