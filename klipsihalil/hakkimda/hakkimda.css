@@ -1,0 +1,75 @@
+.tum-sayfa {
+  display: flex;
+  font-family: Calibri;
+  flex-direction: row;
+}
+
+.oz-gecmis-baslik {
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  width:100%;
+}
+
+/*.isim,
+.isim + p {
+  display: inline;
+}
+
+.email-adresi,
+.email-adresi + p {
+  display: inline;
+}
+
+.telefon-numarasi,
+.telefon-numarasi + p {
+  display: inline;
+}
+
+.adres,
+.adres + p {
+  display: inline;
+}
+
+.dogum-tarihi,
+.dogum-tarihi + p {
+  display: inline;
+}
+
+.ehliyet,
+.ehliyet + p {
+  display: inline;
+}
+
+.uyruk,
+.uyruk + p {
+  display: inline;
+}
+
+.linkedin,
+.linkedin + p {
+  display: inline;
+}*/
+
+h3, h3 + p {
+  display: inline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tum-kisisel-bilgiler {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 390px;
+  border: 1px solid blue;
+  background-color: beige;
+  font-size: 20px;
+  margin-top: 90px;
+}
